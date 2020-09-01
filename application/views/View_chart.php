@@ -145,8 +145,9 @@
 </body>
 </html>
 
-<script src="<?php echo base_url() ;?>js/jquery-3.4.1.js"></script>
-<script src="<?php echo base_url() ;?>js/Chart.min.js"></script>
+<?php
+$this->load->View('down');
+?>
 <script src="https://code.highcharts.com/highcharts.js"></script>
 <script src="https://code.highcharts.com/modules/exporting.js"></script>
 <script src="https://code.highcharts.com/modules/export-data.js"></script>
